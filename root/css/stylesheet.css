@@ -1,88 +1,88 @@
 /*tipografias*/
+
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro");
-
-
 body {
-  padding: 0;
-  margin: 0;
-  width: 100vw;
-  /* box-sizing: border-box;*/
-  font-family: "Be Vietnam Pro";
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    /*box-sizing: border-box;*/
+    font-family: "Be Vietnam Pro";
 }
 
-a{
-  text-decoration: none;
-  color: #3f5096;
+a {
+    text-decoration: none;
+    color: #3f5096;
 }
 
-i.fa-bars{
-  display: none;
+i.fa-bars {
+    display: none;
+}
+
+main {
+    margin: 5%;
 }
 
 
- main{
-  margin: 5%;
- }
+/* button style*/
 
- /* button style*/
 button {
-  padding: 10px;
-  background: rgb(63, 73, 105);
-  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
-  color: white;
-  border: none;
+    padding: 10px;
+    background: rgb(63, 73, 105);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: white;
+    border: none;
 }
 
 .container-flex-header {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 5%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%;
 }
 
 .flex-navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 70%;
-  height: 150%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    height: 150%;
 }
 
 .flex-navbar ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  width: 80%;
-  color: #242E52;
-  list-style: none;
-  font-weight: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    width: 80%;
+    color: #242E52;
+    list-style: none;
+    font-weight: 300px;
 }
 
- li:hover{
-  color: rgb(227, 230, 73);
-  cursor: pointer;
-  transform: translateX(24px);
-  font-size:large;
-  font-weight: 500px;
+li:hover {
+    color: rgb(227, 230, 73);
+    cursor: pointer;
+    transform: translateX(24px);
+    font-size: large;
+    font-weight: 500px;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: rgb(227, 230, 73);
+    color: #232C50;
+}
 
-button:hover{
-  cursor: pointer;
-  background-color:rgb(227, 230, 73);
-  color: #232C50;
-  }
-
-  .productsButton{
-    display:flex;
+.productsButton {
+    display: flex;
     text-align: center;
-    
-    
-    }
-    /*
+    margin: 5%;
+}
+
+
+/*
     -inteno de dar brillo al botón-
     button::before,
     button::after
@@ -125,66 +125,58 @@ button:hover{
 */
 
 .logo1 {
-  margin-top: 0,5%;
-  margin-left: 3%;
-  width: 0,5px;
-  border-radius: 30%;
-  
+    margin-top: 0, 5%;
+    margin-left: 3%;
+    width: 0, 5px;
+    border-radius: 30%;
 }
 
-
-.first-container{
-  display: flex;
-  flex-direction: row;
-  margin: 2% 2% 2%;
-  padding-left: 3%;
-  
+.first-container {
+    display: flex;
+    flex-direction: row;
+    margin: 2% 2% 2%;
+    padding-left: 3%;
 }
 
-.base-container h1{
-  display: flex;
-  flex-direction: column;
-  font-weight: 2px;
-  
+.base-container h1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 2px;
 }
 
-.container-1{
-  display: flex;
-  flex-direction: column;
-  font-size: 40%;
-  position: relative;
-  width: 80%;
- 
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 40%;
+    position: relative;
+    width: 80%;
 }
 
-.container-1 h1{
-  width: 200%;
-  height: 35%;
-  right: 5%;
-  font-size: 45px;
-  color:  #232C50;
+.container-1 h1 {
+    height: 35%;
+    right: 5%;
+    font-size: 45px;
+    color: #232C50;
 }
 
-.container-1 p{
-  line-height: 180%;
-  font-weight: bold;
-  width: 70%;
-  font-size: 25px;
-  padding-right:0%;
-  
+.container-1 h2 {
+    height: 35%;
+    right: 5%;
+    font-size: 30px;
+    color: #232C50;
 }
 
-.container-1 button{
-  display: flex;
-  
+.container-1 p {
+    line-height: 100%;
+    width: 100%;
+    font-size: 15px;
+    padding-right: 0%;
 }
-.comments-container{
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  font-size: 90%;
-  padding: 8%;
+
+.container-1 button {
+    display: flex;
 }
+
 
 /*.container-2-image{
   display: flex;
@@ -192,6 +184,7 @@ button:hover{
   
 }
 */
+
 
 /*.seccond-container{
   display: flex;
@@ -264,232 +257,197 @@ button:hover{
 
  /* style for third big container*/
 
-.comments-container {
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 3%;
-
-}
-
-.cards{
-display: flex;
-padding: 2%;
-
-}
-.comments-container h2{
-  margin-bottom: 3%;
-  padding: 3%;
-  font-size:39px;
-  color: #242E53;
-}
-.comments-container img{
-  position:relative;
-  bottom: 30px;
-  
-}
-
-.global-cards{
-  display: flex;
-  background-color: #FAFAFA;
-  justify-content: space-around;
-
- 
-}
-
-.cards{
-
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.ante-footer{
-  display: flex;
-  width: 1439px;
-  height:224px;
-  background-color:#8B48BF ;
-  justify-content: space-around;
-  align-items: center;
-
-}
-
-.ante-footer h2{
-  font-weight:normal;
-  letter-spacing: -0.005em;
-  font-style: normal;
-  font-size: 29px;
-  color: white ;
-  width: 400px;
-  
- 
-}
-
-.ante-footer button{
-  padding: 10px 25px;
-  background-color: white;
-  color:#8B48BF;
-
-}
-
-
- /* footer styles*/
-
-footer{
-width: 1439px;
-display: flex;
-height: 247px;
-background-color:#1E1E26;
-justify-content: space-around;
-
-}
-
-.footer-1{
- 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.redes{
-  display: flex;
-  justify-content: space-around;
-  justify-content: space-between;
-
-}
-
-
-.list-footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 25%;
-  line-height: 40px;
- 
-}
-
-.list-footer ul{
-  display: flex;
-  flex-direction: column;
-  font-size: 15px;
-  color: white;
-  list-style: none;
-  width: 100%;
-}
-
-.list1-footer{
-  display: flex;
-  padding: 4% 70% 2% 0%;
-}
-
-.list2-footer{
-  padding: 4% 2%;
-  
-}
-
-
- footer p{
-  color: #8C8C94;
- }
-
-form{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-right: 10%;
-}
-
-.container3-footer{
-display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: space-between;
-padding: 2% 4% 3%;
-}
-
-.container3-footer button{
-  display: flex;
-  padding:10px 20px;
-}
-#email{
-  border-radius: 50px;
-  padding:10px 25px;
-}
-
-
-@media (max-width: 480px){
-
-  body {
-    margin:0;
-    width: 100vw;
-  }
-
-.first-container{
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.container-2 {
-  width: 100vw;
-  
-}
-
-.container-2 img {
-  width: 50%;
-};
-
-.seccond-container{
-  display: flex;
-  flex-direction: column;
-}
-
-
-.flex-navbar{
-  display: none;
-
-}
-
-
-.container-flex-header button{
-display: none;
-}
-
-.fa-bars{
-  display: block;
-  font-size: 200%;
-  
-}
-
-.hidden{
-  display: none;
-}
-
-.ante-footer{
-  display: flex;
-  flex-direction: column;
-
-}
-
-  .seccond-container{
-
+.products-container {
     display: flex;
     flex-direction: column;
-    
-  }
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+}
 
-  .seccond-container h4{
-    background-color: rgba(139, 72, 191, 0.3);
-    border-radius: 50px 0px 0px 50px;
-  }
+.products-container h2 {
+    margin: 2%;
+    padding: 1%;
+    font-size: 35px;
+    color: #242E53;
+}
 
-    footer{
-      display: flex;
-      position: absolute;
+.products-cards {
+    display: flex;
+    background-color: #FAFAFA;
+    justify-content: space-evenly;
+}
+
+.cards {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+.products-container button {
+    margin: 3%;
+}
+
+
+/*Style for ante-footer*/
+
+.ante-footer {
+    display: flex;
+    /*width: 1439px;
+    height: 224px;*/
+    background-color: #8B48BF;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ante-footer h2 {
+    font-weight: normal;
+    letter-spacing: -0.005em;
+    font-style: normal;
+    font-size: 29px;
+    color: white;
+    width: 400px;
+}
+
+.ante-footer button {
+    padding: 10px 25px;
+    background-color: white;
+    color: #8B48BF;
+}
+
+
+/* footer styles*/
+
+footer {
+    /*width: 1439px;*/
+    display: flex;
+    /*height: 247px;*/
+    background-color: #1E1E26;
+    justify-content: space-around;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.list-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25%;
+    line-height: 40px;
+}
+
+.list-footer ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: white;
+    list-style: none;
+    width: 100%;
+}
+
+.list1-footer {
+    display: flex;
+    padding: 4% 70% 2% 0%;
+}
+
+.list2-footer {
+    padding: 4% 2%;
+}
+
+footer p {
+    color: #8C8C94;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.container3-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2% 4% 3%;
+}
+
+.container3-footer button {
+    display: flex;
+    padding: 10px 20px;
+}
+
+#email {
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: 0;
+        width: 100vw;
     }
-  }
-  /*footer p{
+    .first-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container-2 {
+        width: 100vw;
+    }
+    .container-2 img {
+        width: 50%;
+    }
+    ;
+    .seccond-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-navbar {
+        display: none;
+    }
+    .container-flex-header button {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 200%;
+    }
+    .hidden {
+        display: none;
+    }
+    .ante-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .seccond-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .seccond-container h4 {
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+    }
+    footer {
+        display: flex;
+        position: absolute;
+    }
+}
+
+
+/*footer p{
     display: flex;
     top: 200px;
     position: absolute;
@@ -501,4 +459,3 @@ display: none;
 
   }
 */
-
